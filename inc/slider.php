@@ -80,8 +80,8 @@ function sydney_slider_template() {
                 	<?php if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.png') ) : ?>
                     <li>
                         <div class="contain">
-                            <h2 class="maintitle"><?php echo esc_html($slider_title_1); ?></h2>
-                            <p class="subtitle"><?php echo esc_html($slider_subtitle_1); ?></p>
+                            <h2 class="maintitle"><?php echo do_shortcode("[cml_text eu='Ezagutu gaitzazu' es='Conócenos']") ?></h2>
+                            <p class="subtitle"><?php echo do_shortcode("[cml_text eu='Txirrindularitza Eskola bat baino gehiago gara' es='Somos más que una escuela ciclista']") ?></p>
                         </div>
                     </li>
                		<?php endif; ?>
@@ -118,9 +118,9 @@ function sydney_slider_template() {
                     </li>
                     <?php endif; ?>                                        
                 </ul>
-            </div class="video">
+            </div>
             <?php if ($slider_button) : ?>
-          <a href="<?php echo esc_url($slider_button_url); ?>" class="slider-video"><?php echo do_shortcode('[embedyt]http://www.youtube.com/watch?v=75h7Yx5XHUM&width=400&height=250[/embedyt]'); ?></a>
+                <a href="<?php echo esc_url($slider_button_url); ?>" class="roll-button button-slider"><?php echo do_shortcode("[cml_text eu='Ikusi bideoa' es='Ver el video']") ?></a>
             <?php endif; ?>
         </div>
 

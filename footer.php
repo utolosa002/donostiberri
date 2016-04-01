@@ -19,13 +19,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'sydney' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sydney' ), 'WordPress' ); ?></a>
+			<a target="_blank" href="<?php echo esc_url( __( 'http://wordpress.org/', 'sydney' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sydney' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Desarrollado por %1$s.', 'sydney' ), 'fidenet', '<a href="http://www.fidenet.net" rel="designer">fidenet</a>' ); ?>
+			<a target="_blank" href="<?php echo esc_url( __( 'http://fidenet.net', 'sydney' ) ); ?>"><?php echo do_shortcode("[cml_text eu='Fidenet-ek garatua' es='Desarrollado por Fidenet']") ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
 
 </body>
