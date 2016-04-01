@@ -1,0 +1,166 @@
+/*
+Theme Name: donostiberri
+Child Author: Unai Tolosa
+Child Author URI: http://talaios.net
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.25
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: donostiberri
+Theme URI: http://athemes.com/theme/sydney-db
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+
+@import url('../sydney/style.css');
+
+/* BIDEOA */
+
+@media (min-width: 992px) {
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 70% auto!important;
+	min-width: 250px;
+	height: 30%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+	width: 30%!important;
+	height: auto;
+	margin: auto;
+}
+}
+@media (max-width: 991px) {
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 70% auto!important;
+	min-width: 250px;
+	height: 30%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+    width: 40%!important;
+    padding-top: 100%!important;
+    margin: 0px auto!important;
+    min-width: 300px;
+    min-height: 150px;
+}
+}
+@media (max-width: 769px){
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 275% auto!important;
+	min-width: 250px;
+	height: 30%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+    margin: 0px auto!important;
+    min-width: 300px;
+    min-height: 150px;
+}
+}
+@media (max-width: 679px){
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 210% auto!important;
+	min-width: 250px;
+	height: 45%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+    margin: 0px auto!important;
+    min-width: 300px;
+    min-height: 150px;
+}
+}
+@media (max-width: 560px){
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 160% auto!important;
+	min-width: 250px;
+	height: 45%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+    margin: 0px auto!important;
+    min-width: 300px;
+    min-height: 150px;
+}
+}
+@media (max-width: 430px){
+a.slider-video div iframe.__youtube_prefs__{
+	margin: 100% auto!important;
+	min-width: 250px;
+	height: 60%;
+}
+a.slider-video div.fluid-width-video-wrapper{
+    margin: 0px auto!important;
+    min-width: 300px;
+    min-height: 150px;
+}
+}
+
+/*MENUA*/
+#mainnav{
+	margin-top: 15px;
+}
+#mainnav ul li a{
+	border-bottom: medium solid #00A0E2;
+}
+#mainnav ul li.current_page_item a{
+	border-bottom: medium solid #0000CC;
+}
+#mainnav ul li a:hover{
+	border-bottom: medium solid #0000CC;
+}
+#mainnav-mobi{
+position:relative!important;
+}
+#masthead{
+	background: black;
+	opacity: 0.8;
+}
+@media (min-width: 1025px){
+#masthead{
+	height: 75px;
+}
+.site-logo {
+    max-height: 65px;
+}
+.site-header fixed float-header{
+	height: 75px;
+}
+}
+
+/*SLIDE*/
+div#slideshow{
+    max-height: 400px!important;
+}
+
+/*GORPUTZA*/
+.estua{
+	max-width: 700px!important;
+	margin: 0px auto;
+}
+.title-post{
+    text-align: center;
+}
+div#nor h1, div#taldea h1, div#sponsor h1{
+	text-align: center;
+}
+div#taldea img, div#sponsor img{
+	width: 100%;
+}
+
+/*HIZKUNTZA*/
+.cml_flags {
+position: inherit;
+}
+.cml_flags li.current {
+display:none;
+}
+.cml_flags img {
+display:none;
+}
+
+/*OINA*/
+.footer-widgets {
+    padding: 50px 0;
+}
